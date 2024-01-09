@@ -1,6 +1,6 @@
 export default function Contact() {
 
     return (
-<p></p>
+<p>Hello</p>
     );
 }

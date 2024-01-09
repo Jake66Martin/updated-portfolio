@@ -1,6 +1,6 @@
 export default function Resume() {
 
     return (
-<p></p>
+<p>Hello</p>
     );
 }
