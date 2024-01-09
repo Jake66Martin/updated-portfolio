@@ -1,44 +1,45 @@
-import { Link, useLocation } from "react-router-dom";
+// import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-function NavTabs() {
-  const currentPage = useLocation().pathname;
+function Nav() {
+//   const currentPage = useLocation().pathname;
 
   return (
     <ul className="nav justify-content-end">
       <li className="nav-item">
       <Link
-          to="/"
-          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+          to="/AboutMe"
+        //   className={currentPage === '/AboutMe' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          About Me
         </Link>
       </li>
       <li className="nav-item">
       <Link
-          to="/"
-          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+          to="/Portfolio"
+        //   className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          Portfolio
         </Link>
       </li>
       <li className="nav-item">
       <Link
-          to="/"
-          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+          to="/Contact"
+        //   className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          Contact
         </Link>
       </li>
       <li className="nav-item">
       <Link
-          to="/"
-          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+          to="/Resume"
+        //   className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          Resume
         </Link>
       </li>
     </ul>
   );
 }
 
-export default NavTabs;
+export default Nav;
