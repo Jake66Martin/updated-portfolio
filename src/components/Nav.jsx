@@ -4,9 +4,9 @@ function Nav() {
   const currentPage = useLocation().pathname;
 
   return (
-    <div>
-    <p>ergeargrg</p>
-    <ul className="nav nav-tabs justify-content-end bg-dark">
+    <div className="bg-dark d-flex justify-content-between">
+      <p className="text-white">dfgsdfgsdfg</p>
+    <ul className="nav nav-tabs justify-content-end">
       <li className="nav-item">
       <Link
           to="/Aboutme"
@@ -41,6 +41,7 @@ function Nav() {
       </li>
     </ul>
     </div>
+    
   );
 }
 
