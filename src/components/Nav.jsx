@@ -4,11 +4,13 @@ function Nav() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs justify-content-end">
+    <div>
+    <p>ergeargrg</p>
+    <ul className="nav nav-tabs justify-content-end bg-dark">
       <li className="nav-item">
       <Link
           to="/Aboutme"
-          className={currentPage === '/AboutMe' ? 'nav-link danger' : 'nav-link'}
+          className={currentPage === '/Aboutme' ? 'nav-link text-danger' : 'nav-link text-white'}
         >
           About Me
         </Link>
@@ -16,7 +18,7 @@ function Nav() {
       <li className="nav-item">
       <Link
           to="/Portfolio"
-          className={currentPage === '/Portfolio' ? 'nav-link danger' : 'nav-link'}
+          className={currentPage === '/Portfolio' ? 'nav-link text-danger' : 'nav-link text-white'}
         >
           Portfolio
         </Link>
@@ -24,7 +26,7 @@ function Nav() {
       <li className="nav-item">
       <Link
           to="/Contact"
-          className={currentPage === '/Contact' ? 'nav-link danger' : 'nav-link'}
+          className={currentPage === '/Contact' ? 'nav-link text-danger' : 'nav-link text-white'}
         >
           Contact
         </Link>
@@ -32,12 +34,13 @@ function Nav() {
       <li className="nav-item">
       <Link
           to="/Resume"
-          className={currentPage === '/Resume' ? 'nav-link danger' : 'nav-link'}
+          className={currentPage === '/Resume' ? 'nav-link text-danger' : 'nav-link text-white'}
         >
           Resume
         </Link>
       </li>
     </ul>
+    </div>
   );
 }
 
