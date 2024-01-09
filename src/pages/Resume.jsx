@@ -1,6 +1,7 @@
 export default function Resume() {
-
-    return (
-<p>Hello</p>
-    );
+  return (
+    <div className="d-flex justify-content-center align-items-center">
+      <p>Hello</p>
+    </div>
+  );
 }
