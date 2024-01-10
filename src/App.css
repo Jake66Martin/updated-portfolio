@@ -16,3 +16,11 @@
 canvas {
     display: block;
 }
+
+.top-25 {
+    top: 25%;
+}
+
+.left-25 {
+    left: 25%;
+}
