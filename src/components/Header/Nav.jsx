@@ -7,7 +7,7 @@ function Nav() {
   return (
     <header className="bg-dark d-flex justify-content-between nav-height">
       <div className="w-50 d-flex justify-content-center align-items-center">
-      <p className="text-white fs-3">Jacob Fournier-Martin</p>
+      <p className="text-white fs-2">Jacob Fournier-Martin</p>
       </div>
       <div className="w-50 d-flex justify-content-center align-items-center">
       <ul className="nav nav-tabs justify-content-end">
