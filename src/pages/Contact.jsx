@@ -1,4 +1,4 @@
-import '../App.css'
+// import '../App.css'
 
 import { useState } from 'react';
 
@@ -11,10 +11,10 @@ export default function Contact() {
 
 
   const handleInputChange = (e) => {
-    const { input , value } = e.target;
+    const { name , value } = e.target;
 
     return (
-      input === 'name' ? setName(value) : input === 'email' ? setEmail(value) : setMessage(value)
+      name === 'name' ? setName(value) : name === 'email' ? setEmail(value) : setMessage(value)
 
     )
   };
@@ -31,15 +31,16 @@ export default function Contact() {
 
 
   return (
-    <div className="d-flex flex-column justify-content-center align-items-center text-white position-absolute bg-dark w-50 h-50 top-25 left-25">
-      <p>Contact</p>
-      <form className="form d-flex flex-column align-items-between" onSubmit={handleFormSubmit}>
+    <div className="d-flex flex-column justify-content-center align-items-center text-white position-absolute w-50 h-50 top-25 left-25">
+      <p className='my-3'>Contact</p>
+      <form className="form d-flex flex-column w-100 h-100" onSubmit={handleFormSubmit}>
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="Name"
+          className='my-3 align-self-sm-center'
         />
         <input
           value={email}
@@ -47,15 +48,17 @@ export default function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="E-mail"
+          className='my-3 align-self-sm-center'
         />
-        <input
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="Message"
+          className='my-3 h-50'
         />
-        <button type="submit">
+        <button type="submit" className='my-3 align-self-sm-center'>
           Submit
         </button>
       </form>
