@@ -1,9 +1,22 @@
-import '../App.css'
+import "../App.css";
 
 export default function Aboutme() {
   return (
-    <div className="d-flex justify-content-center align-items-center text-white position-absolute bg-dark w-50 h-50 top-25 left-25">
-      <p>Hello</p>
+    <div className="d-flex justify-content-center align-items-center text-white position-absolute w-50 h-50 top-25 left-25">
+      <div className="h-100 w-25 d-flex justify-content-center">
+        <img src="src\assets\TRY1.jpg" alt="Description of the image" />
+      </div>
+      <div className="h-100 w-75">
+        <p>
+          ergsrgrtgrtgffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+          <br />
+          dfgdfg
+          <br/>
+          dsfgsdgsdfgsdfgdsfg
+          <br/>
+          dfgsdfgsdfgsdfgsdfg
+        </p>
+      </div>
     </div>
   );
 }
