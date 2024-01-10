@@ -13,9 +13,9 @@ function Nav() {
       <ul className="nav nav-tabs justify-content-end">
         <li className="nav-item">
           <Link
-            to="/Aboutme"
+            to="/"
             className={
-              currentPage === "/Aboutme"
+              currentPage === "/"
                 ? "nav-link text-danger"
                 : "nav-link text-white"
             }
