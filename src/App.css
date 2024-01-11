@@ -34,7 +34,12 @@ canvas {
     grid-template-columns: 1fr 1fr;
 }
 
-.application-images {
+.application-div {
     height: 100%;
     width: 33%;
+}
+
+.img-size {
+    width: 20p0px;
+    height: 180px;
 }
