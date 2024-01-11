@@ -1,4 +1,3 @@
-// import '../App.css'
 
 import { useState } from 'react';
 
@@ -8,6 +7,8 @@ export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
+
 
 
   const handleInputChange = (e) => {
@@ -58,7 +59,11 @@ export default function Contact() {
           placeholder="Message"
           className='my-1 h-50 w-50 align-self-center'
         />
-        <button type="submit" className='my-1 align-self-md-center'>
+        <button 
+        type="submit" 
+        className='my-1 align-self-md-center'
+        
+        >
           Submit
         </button>
         <p className='text-white align-self-center'>If one would prefer to bypass the form, you could<br/> email me directly at jake66martin@hotmail.com</p>

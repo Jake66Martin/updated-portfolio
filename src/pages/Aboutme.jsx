@@ -6,7 +6,8 @@ export default function Aboutme() {
       <div className="h-100 w-25 d-flex justify-content-center">
         <img src="src\assets\TRY1.jpg" alt="Image of myself" />
       </div>
-      <div className="h-100 w-75">
+      <div className="h-100 w-75 d-flex flex-column">
+        <h1 className="align-self-center">Hello, and welcome!</h1>
         <p>
           ergsrgrtgrtgffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
           <br />
