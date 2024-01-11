@@ -4,6 +4,10 @@
     flex-direction: column;
 }
 
+.height {
+    height: 70%;
+}
+
 .background {
     background: black;
 }
@@ -23,6 +27,11 @@ canvas {
 
 .left-25 {
     left: 25%;
+}
+
+.div-frac {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .application-images {

@@ -10,7 +10,6 @@ function App() {
     <>
       <Nav />
       <main className="main-height background">
-      
         <App2/>
         <Outlet />
       </main>
