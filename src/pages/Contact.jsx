@@ -42,7 +42,7 @@ export default function Contact() {
 
     if (emailValidation.test(email)) {
 
-    alert(`Hello ${name}`);
+    alert(`Hello ${name}! And thank you for reaching out. I shall be in contact soon.`);
     setName("");
     setEmail("");
     setMessage("");

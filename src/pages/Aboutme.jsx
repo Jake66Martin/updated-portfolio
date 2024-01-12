@@ -18,7 +18,7 @@ export default function Aboutme() {
           which ever reason it may be, you are now here. Enter the portfolio!
           <br/>
           <br/>
-          My name is Jacob-Fournier martin, and I am an aspiring web developper in the making!
+          My name is Jacob-Fournier Martin, and I am an aspiring web developper in the making!
           I am currently enrolled within the Carleton University coding bootcamp academy.
           I am a curious individual who is constantly looking to absorb material in order to grow
           and develop my knowledge base. I have deep interests in the tech field, the STEM fields,
