@@ -42,6 +42,7 @@ export default function Contact() {
           type="text"
           placeholder="Name"
           className='my-1 align-self-md-center'
+          required
         />
         <input
           value={email}
@@ -50,6 +51,7 @@ export default function Contact() {
           type="text"
           placeholder="E-mail"
           className='my-1 align-self-md-center'
+          required
         />
         <textarea
           value={message}
@@ -58,6 +60,7 @@ export default function Contact() {
           type="text"
           placeholder="Message"
           className='my-1 h-50 w-50 align-self-center'
+          required
         />
         <button 
         type="submit" 

@@ -40,6 +40,10 @@ canvas {
 }
 
 .img-size {
-    width: 20p0px;
+    width: 200px;
     height: 180px;
+}
+
+.logo2 {
+    fill: red;
 }
