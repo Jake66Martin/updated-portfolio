@@ -14,7 +14,7 @@ export default function Aboutme() {
         <h1 className="align-self-center">Hello, and welcome!</h1>
         <p>
           Hello to you! Yes, you, the individual that is reading this. I see that you
-          have happened across my portfolio... Be it either a potential employer, or a potential client. For
+          have come across my portfolio... Be it either a potential employer, or a potential client. For
           which ever reason it may be, you are now here. Enter the portfolio!
           <br/>
           <br/>
