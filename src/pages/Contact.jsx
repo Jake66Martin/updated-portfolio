@@ -3,6 +3,10 @@ import "../App.css";
 import { useState } from "react";
 
 export default function Contact() {
+
+  const emailValidation = /^([a-z0-9_.-]+)@([\da-z.-]+)\.([a-z.]{2,6})$/
+
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -20,6 +24,7 @@ export default function Contact() {
 
   };
 
+  
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     console.log(e);
@@ -30,14 +35,23 @@ export default function Contact() {
       : setMessage(value);
   };
 
+
+
   const handleFormSubmit = (e) => {
     e.preventDefault();
+
+    if (emailValidation.test(email)) {
 
     alert(`Hello ${name}`);
     setName("");
     setEmail("");
     setMessage("");
+    
+  } else {
+    alert('Please enter a valid email')
+  }
   };
+
 
   return (
     <div className="d-flex flex-column justify-content-center align-items-center text-white position-absolute w-100 height">
