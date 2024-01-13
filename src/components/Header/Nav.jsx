@@ -1,5 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import "./Nav.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function Nav() {
   const currentPage = useLocation().pathname;
@@ -65,39 +67,65 @@ function Nav() {
 
     <header className="bg-dark d-flex justify-content-between nav-height">
       <div className="dropdown">
-        <a
-          className="btn btn-secondary dropdown-toggle"
+        <Link
+          className="btn btn-secondary dropdown-toggle bg-dark"
           href="#"
           role="button"
           id="dropdownMenuLink"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          Dropdown link
-        </a>
+          Menu
+        </Link>
 
-        <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <ul className="dropdown-menu bg-dark" aria-labelledby="dropdownMenuLink">
           <li>
             <Link
               to="/"
               className={
                 currentPage === "/"
-                  ? "nav-link text-danger"
-                  : "nav-link text-white"
+                  ? "nav-link text-danger dropdown-item"
+                  : "nav-link text-white dropdown-item"
               }
             >
               About Me
             </Link>
           </li>
           <li>
-            <a className="dropdown-item" href="#">
-              Another action
-            </a>
+          <Link
+            to="/Portfolio"
+            className={
+              currentPage === "/Portfolio"
+                ? "nav-link text-danger"
+                : "nav-link text-white"
+            }
+          >
+            Portfolio
+          </Link>
           </li>
           <li>
-            <a className="dropdown-item" href="#">
-              Something else here
-            </a>
+          <Link
+            to="/Contact"
+            className={
+              currentPage === "/Contact"
+                ? "nav-link text-danger"
+                : "nav-link text-white"
+            }
+          >
+            Contact
+          </Link>
+          </li>
+          <li>
+          <Link
+            to="/Resume"
+            className={
+              currentPage === "/Resume"
+                ? "nav-link text-danger"
+                : "nav-link text-white"
+            }
+          >
+            Resume
+          </Link>
           </li>
         </ul>
       </div>
