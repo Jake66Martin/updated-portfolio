@@ -23,7 +23,7 @@ function Nav() {
   }, []);
 
   return (
-     <div>
+     <div className="">
     {!isMobile ? (
     <header className="bg-dark d-flex justify-content-between nav-height">
       <div className="w-50 d-flex justify-content-center align-items-center">
@@ -84,7 +84,8 @@ function Nav() {
     </header>
     ) : (
 
-    <header className="bg-dark d-flex justify-content-between nav-height">
+    <header className="bg-dark d-flex justify-content-between align-items-center nav-height">
+      <p className="text-white fs-2">Jacob-Fournier-Martin</p>
       <div className="dropdown">
         <Link
           className="btn btn-secondary dropdown-toggle bg-dark"
