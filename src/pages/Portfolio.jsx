@@ -193,7 +193,7 @@ export default function Portfolio() {
         </div>
       ) : (
         <div className="d-flex flex-column overflow-container justify-content-center align-items-center text-white position-absolute w-100 height">
-          <div className="application-div mx-3 d-flex justify-content-center align-items-center position-relative">
+          <div className="application-div m-3 d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\web-quiz.png"
               alt="Image of myself"
@@ -220,7 +220,7 @@ export default function Portfolio() {
               </svg>
             </a>
           </div>
-          <div className="mx-3 application-div d-flex justify-content-center align-items-center position-relative">
+          <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\day-schedule.png"
               alt="Image of myself"
@@ -247,7 +247,7 @@ export default function Portfolio() {
               </svg>
             </a>
           </div>
-          <div className="mx-3 application-div d-flex justify-content-center align-items-center position-relative">
+          <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\first-portfolio.png"
               alt="Image of myself"
@@ -274,7 +274,7 @@ export default function Portfolio() {
               </svg>
             </a>
           </div>
-          <div className="mx-3 application-div d-flex justify-content-center align-items-center position-relative">
+          <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\password generator.png"
               alt="Image of myself"
@@ -301,7 +301,7 @@ export default function Portfolio() {
               </svg>
             </a>
           </div>
-          <div className="mx-3 application-div d-flex justify-content-center align-items-center position-relative">
+          <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\tech-blog.png"
               alt="Image of myself"
@@ -328,7 +328,7 @@ export default function Portfolio() {
               </svg>
             </a>
           </div>
-          <div className="mx-3 application-div d-flex justify-content-center align-items-center position-relative">
+          <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\weather-network.png"
               alt="Image of myself"

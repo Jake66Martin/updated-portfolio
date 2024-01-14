@@ -56,4 +56,5 @@ canvas {
 .overflow-container {
     /* overflow: auto; */
      overflow: scroll;
+    
   }
