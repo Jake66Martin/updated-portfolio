@@ -1,8 +1,36 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ # README 
 
-Currently, two official plugins are available:
+## Description
+My personal portfolio  made for potential employers and clients.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## <h2 id = "installation">Installation</h2>
+No installation required. This is a client side product.
+
+## <h2 id ="usage">Usage</h2>
+Browse and peruse over the information on the site.
+
+## <h2 id = "license">License</h2>
+No license has been chosen for this project..      
+      
+
+
+
+## <h2 id ="contributing">Contributing</h2>
+N/A
+
+## <h2 id = "tests">Tests</h2>
+N/A
+
+## <h2 id = "questions">Questions</h2>
+My Github username is Jake66Martin.   
+My github profile link is www.github.com/Jake66Martin   
+You can also contact me with any further questions at jake66martin@hotmail.com  

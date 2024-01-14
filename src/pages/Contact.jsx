@@ -1,6 +1,6 @@
 import "../App.css";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Contact() {
 
@@ -10,6 +10,8 @@ export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [isMobile, setIsMobile] = useState(false);
+
 
   const handleEmpty = (e) => {
     const { name, value } = e.target;
@@ -52,8 +54,26 @@ export default function Contact() {
   }
   };
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
 
   return (
+
+    <>
+
+{!isMobile ? (
+
     <div className="d-flex flex-column justify-content-center align-items-center text-white position-absolute w-100 height">
       <p className="my-3 fs-4">Contact</p>
       <form
@@ -97,7 +117,57 @@ export default function Contact() {
           If one would prefer to bypass the form, you could
           <br /> email me directly at jake66martin@hotmail.com
         </p>
+        <p className="text-white align-self-center">(613)501-0898</p>
       </form>
     </div>
+) : (
+<div className="d-flex flex-column justify-content-center align-items-center text-white position-absolute w-100 height">
+      <p className="my-3 fs-4">Contact</p>
+      <form
+        className="form d-flex flex-column align-items-center w-100 h-100"
+        onSubmit={handleFormSubmit}
+      >
+        <input
+          value={name}
+          name="name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Name"
+          className="my-3 w-25 align-self-md-center"
+          onBlur={handleEmpty}
+          required
+        />
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="E-mail"
+          className="my-3 w-25 align-self-md-center"
+          onBlur={handleEmpty}
+          required
+        />
+        <textarea
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Message"
+          className="my-3 text-area align-self-center"
+          onBlur={handleEmpty}
+          required
+        />
+        <button type="submit" className="my-1 button-length align-self-md-center text-align-center">
+          Submit
+        </button>
+        <p className="text-white align-self-center">
+          If one would prefer to bypass the form, you could
+           email me directly at jake66martin@hotmail.com
+        </p>
+        <p className="text-white align-self-center">(613)501-0898</p>
+      </form>
+    </div>
+)}
+    </>
   );
 }

@@ -58,3 +58,12 @@ canvas {
      overflow: scroll;
     
   }
+
+  .text-area {
+    width: 300px;
+    height: 140px;
+  }
+
+  .button-length {
+    width: 60px;
+  }
