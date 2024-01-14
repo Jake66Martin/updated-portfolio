@@ -47,3 +47,13 @@ canvas {
 .logo2 {
     fill: red;
 }
+
+.pic-height {
+    width: 100px;
+    height: 200px;
+}
+
+.overflow-container {
+    /* overflow: auto; */
+     overflow: scroll;
+  }

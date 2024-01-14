@@ -23,7 +23,7 @@ function Nav() {
   }, []);
 
   return (
-    <div className="">
+    <>
       {!isMobile ? (
         <header className="bg-dark d-flex justify-content-between nav-height">
           <div className="w-50 d-flex justify-content-center align-items-center">
@@ -83,7 +83,7 @@ function Nav() {
           </div>
         </header>
       ) : (
-        <header className="bg-dark d-flex justify-content-between align-items-center nav-height">
+        <header className="bg-dark d-flex justify-content-evenly align-items-center nav-height">
           <div className="w-75 d-flex justify-content-center align-items-center">
             <p className="text-white fs-2">Jacob-Fournier-Martin</p>
           </div>
@@ -155,7 +155,7 @@ function Nav() {
           </div>
         </header>
       )}
-    </div>
+    </>
   );
 }
 
