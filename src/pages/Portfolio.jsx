@@ -192,7 +192,7 @@ export default function Portfolio() {
           </div>
         </div>
       ) : (
-        <div className="d-flex flex-column overflow-container justify-content-center align-items-center text-white position-absolute w-100 height">
+        <div className="d-flex flex-column overflow-container align-items-center text-white position-absolute w-100 height">
           <div className="application-div m-3 d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\web-quiz.png"
@@ -201,7 +201,7 @@ export default function Portfolio() {
             />
             <a
               href="https://jake66martin.github.io/web-dev-quiz/"
-              className="position-absolute top-25 left-50 text-danger fs-3"
+              className="position-absolute top-25 left-50 text-danger fs-5"
             >
               Web Dev Quiz
             </a>
@@ -228,7 +228,7 @@ export default function Portfolio() {
             />
             <a
               href="https://jake66martin.github.io/daily-planner-calendar/"
-              className="position-absolute top-25 left-50 text-danger fs-3"
+              className="position-absolute top-25 left-50 text-danger fs-5"
             >
               Day Planner
             </a>
@@ -255,7 +255,7 @@ export default function Portfolio() {
             />
             <a
               href="https://jake66martin.github.io/portfolio/"
-              className="position-absolute top-25 left-50 text-danger fs-3"
+              className="position-absolute top-25 left-50 text-danger fs-5"
             >
               Old Portfolio
             </a>
@@ -282,7 +282,7 @@ export default function Portfolio() {
             />
             <a
               href="https://jake66martin.github.io/password-generator/"
-              className="position-absolute top-25 left-50 text-danger fs-3"
+              className="position-absolute top-25 left-50 text-danger fs-5"
             >
               Pw Generator
             </a>
@@ -309,7 +309,7 @@ export default function Portfolio() {
             />
             <a
               href="https://pacific-journey-43365-1df1617a303b.herokuapp.com/"
-              className="position-absolute top-25 left-50 text-danger fs-3"
+              className="position-absolute top-25 left-50 text-danger fs-5"
             >
               Tech Blog
             </a>
@@ -336,7 +336,7 @@ export default function Portfolio() {
             />
             <a
               href="https://jake66martin.github.io/weather-network/"
-              className="position-absolute top-25 left-50 text-danger fs-3"
+              className="position-absolute top-25 left-50 text-danger fs-5"
             >
               Weather App
             </a>
