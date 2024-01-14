@@ -23,7 +23,7 @@ export default function Aboutme() {
         <div className="d-flex justify-content-center align-items-center text-white position-absolute w-50 h-50 top-25 left-25">
           <div className="h-100 w-25 d-flex justify-content-center">
             <img
-              src="/TRY1.png"
+              src="/TRY1.jpg"
               alt="Image of myself"
               className="rounded-circle"
             />
