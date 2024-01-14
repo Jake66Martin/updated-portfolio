@@ -27,7 +27,7 @@ export default function Portfolio() {
               <div className="application-div d-flex justify-content-center align-items-center position-relative">
                 <img
                   src="src\assets\web-quiz.png"
-                  alt="Image of myself"
+                  alt="web dev quiz image"
                   className="img-size rounded"
                 />
                 <a
@@ -54,7 +54,7 @@ export default function Portfolio() {
               <div className="application-div d-flex justify-content-center align-items-center position-relative">
                 <img
                   src="src\assets\day-schedule.png"
-                  alt="Image of myself"
+                  alt="day schedule image"
                   className="img-size rounded"
                 />
                 <a
@@ -81,7 +81,7 @@ export default function Portfolio() {
               <div className="application-div d-flex justify-content-center align-items-center position-relative">
                 <img
                   src="src\assets\first-portfolio.png"
-                  alt="Image of myself"
+                  alt="original portfolio image"
                   className="img-size rounded"
                 />
                 <a
@@ -110,7 +110,7 @@ export default function Portfolio() {
               <div className="application-div d-flex justify-content-center align-items-center position-relative">
                 <img
                   src="src\assets\password generator.png"
-                  alt="Image of myself"
+                  alt="password generator image"
                   className="img-size rounded"
                 />
                 <a
@@ -137,7 +137,7 @@ export default function Portfolio() {
               <div className="application-div d-flex justify-content-center align-items-center position-relative">
                 <img
                   src="src\assets\tech-blog.png"
-                  alt="Image of myself"
+                  alt="tech blog image"
                   className="img-size rounded"
                 />
                 <a
@@ -164,7 +164,7 @@ export default function Portfolio() {
               <div className="application-div d-flex justify-content-center align-items-center position-relative">
                 <img
                   src="src\assets\weather-network.png"
-                  alt="Image of myself"
+                  alt="weather network image"
                   className="img-size rounded"
                 />
                 <a
@@ -196,7 +196,7 @@ export default function Portfolio() {
           <div className="application-div m-3 d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\web-quiz.png"
-              alt="Image of myself"
+              alt="web quiz image"
               className="img-size rounded"
             />
             <a
@@ -223,7 +223,7 @@ export default function Portfolio() {
           <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\day-schedule.png"
-              alt="Image of myself"
+              alt="day schedule image"
               className="img-size rounded"
             />
             <a
@@ -250,7 +250,7 @@ export default function Portfolio() {
           <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\first-portfolio.png"
-              alt="Image of myself"
+              alt="original portfolio image"
               className="img-size rounded"
             />
             <a
@@ -277,7 +277,7 @@ export default function Portfolio() {
           <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\password generator.png"
-              alt="Image of myself"
+              alt="password generator image"
               className="img-size rounded"
             />
             <a
@@ -304,7 +304,7 @@ export default function Portfolio() {
           <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\tech-blog.png"
-              alt="Image of myself"
+              alt="tech blog image"
               className="img-size rounded"
             />
             <a
@@ -331,7 +331,7 @@ export default function Portfolio() {
           <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
             <img
               src="src\assets\weather-network.png"
-              alt="Image of myself"
+              alt="weather network image"
               className="img-size rounded"
             />
             <a
