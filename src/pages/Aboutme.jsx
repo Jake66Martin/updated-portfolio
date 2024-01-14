@@ -23,7 +23,7 @@ export default function Aboutme() {
         <div className="d-flex justify-content-center align-items-center text-white position-absolute w-50 h-50 top-25 left-25">
           <div className="h-100 w-25 d-flex justify-content-center">
             <img
-              src="src\assets\TRY1.jpg"
+              src="/TRY1.png"
               alt="Image of myself"
               className="rounded-circle"
             />
@@ -53,7 +53,7 @@ export default function Aboutme() {
         <div className="position-absolute d-flex align-items-center  flex-column w-100 height text-white">
           <div className="h-50 w-100 d-flex justify-content-center align-items-center">
             <img
-              src="src\assets\TRY1.jpg"
+              src="/TRY1.jpg"
               alt="Image of myself"
               className="rounded-circle pic-height"
             />
