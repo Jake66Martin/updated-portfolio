@@ -201,7 +201,7 @@ export default function Portfolio() {
             />
             <a
               href="https://jake66martin.github.io/web-dev-quiz/"
-              className="position-absolute top-25 left-50 text-danger fs-5"
+              className="position-absolute top-25 left-50 text-danger fs-6"
             >
               Web Dev Quiz
             </a>
