@@ -114,7 +114,7 @@ export default function Contact() {
           Submit
         </button>
         <p className="text-white align-self-center">
-          If one would prefer to bypass the form, you could
+          Github does not support backend, therefore one can
           <br /> email me directly at jake66martin@hotmail.com
         </p>
         <p className="text-white align-self-center">(613)501-0898</p>
