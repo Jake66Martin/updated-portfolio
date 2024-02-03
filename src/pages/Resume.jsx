@@ -14,16 +14,21 @@ export default function Resume() {
       <div>
       <ul>
         <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
+        <li>CSS (flexbox and grid)</li>
+        <li>Javascript/jQuery</li>
+        <li>Bootstrap/Tailwind</li>
+        <li>Responsive web design</li>
         <li>React</li>
+        <li>Models/Views/Controllers (MVC)</li>
       </ul>
       <h3>Back-end experience</h3>
       <ul>
         <li>NODEjs</li>
         <li>Express</li>
         <li>MYsql/Sequelize</li>
-        <li>MongoDB</li>
+        <li>MongoDB/Mongoose</li>
+        <li>APIs (both rest and graphQl)</li>
+        <li>Progressive Web Application (PWA)</li>
       </ul>
       </div>
     </div>
