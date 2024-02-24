@@ -10,7 +10,7 @@ export default function Resume() {
       >
         Download my resume here
       </a>
-      <h3>Front-end experience</h3>
+      <h3 className='text-center'>Front-end experience</h3>
       <div>
       <ul>
         <li>HTML</li>
@@ -21,7 +21,7 @@ export default function Resume() {
         <li>React</li>
         <li>Models/Views/Controllers (MVC)</li>
       </ul>
-      <h3>Back-end experience</h3>
+      <h3 className='text-center'>Back-end experience</h3>
       <ul>
         <li>NODEjs</li>
         <li>Express</li>

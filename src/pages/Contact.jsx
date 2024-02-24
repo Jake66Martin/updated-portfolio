@@ -157,12 +157,12 @@ export default function Contact() {
           onBlur={handleEmpty}
           required
         />
-        <button type="submit" className="my-1 button-length align-self-md-center text-align-center">
+        <button type="submit" className="my-1 align-self-md-center fs-6">
           Submit
         </button>
-        <p className="text-white align-self-center">
-          If one would prefer to bypass the form, you could
-           email me directly at jake66martin@hotmail.com
+        <p className="text-white align-self-center fs-6">
+           Github does not support backend, therefore one can
+          <br /> email me directly at jake66martin@hotmail.com
         </p>
         <p className="text-white align-self-center">(613)501-0898</p>
       </form>
