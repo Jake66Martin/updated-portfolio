@@ -152,7 +152,7 @@ export default function Contact() {
             <p className="text-white align-self-center fs-6">
             &nbsp;&nbsp;&nbsp;Github does not support backend,
               <br />
-              therefore one can email me directly at
+              therefore one can email me directly at this
               <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jake66martin@hotmail.com
             </p>
