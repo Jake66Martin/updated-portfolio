@@ -1,6 +1,9 @@
 import "../App.css";
 
 import { useState, useEffect } from "react";
+import Header from "../../components/Contact/header.jsx";
+import { Container, Row, Form } from "react-bootstrap";
+
 
 export default function Contact() {
   const emailValidation = /^([a-z0-9_.-]+)@([\da-z.-]+)\.([a-z.]{2,6})$/;
