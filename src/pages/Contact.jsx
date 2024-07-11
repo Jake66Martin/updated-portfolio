@@ -164,7 +164,6 @@ export default function Contact() {
       )} */}
       <section className="bg-light py-3 py-md-5 contact-height">
       <Container>
-        <Header />
 
         <Row className="justify-content-lg-center">
           <div className="col-12 col-lg-9">
