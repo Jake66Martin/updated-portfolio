@@ -1,7 +1,6 @@
 import "../App.css";
 
 import { useState, useEffect } from "react";
-import Header from "../../components/Contact/header.jsx";
 import { Container, Row, Form } from "react-bootstrap";
 
 
