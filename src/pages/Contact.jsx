@@ -162,8 +162,7 @@ export default function Contact() {
           </form>
         </div>
       )} */}
-      <section className="bg-light py-3 py-md-5 contact-height">
-      <Container>
+      
 
         <Row className="justify-content-lg-center">
           <div className="col-12 col-lg-9">
@@ -229,8 +228,7 @@ export default function Contact() {
             </div>
           </div>
         </Row>
-      </Container>
-    </section>
+      
     </>
   );
 }
