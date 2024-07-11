@@ -67,3 +67,7 @@ canvas {
   .button-length {
     width: 60px;
   }
+
+  .contact-form {
+    z-index: 1;
+  }

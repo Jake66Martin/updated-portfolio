@@ -166,7 +166,7 @@ export default function Contact() {
 
         <Row className="justify-content-lg-center">
           <div className="col-12 col-lg-9">
-            <div className="bg-white border rounded shadow-sm overflow-hidden">
+            <div className="bg-white border rounded shadow-sm overflow-hidden contact-form">
               <Form onSubmit={handleFormSubmit}>
                 <Row className="gy-4 gy-xl-5 p-4 p-xl-5">
                   <div className="col-12">
