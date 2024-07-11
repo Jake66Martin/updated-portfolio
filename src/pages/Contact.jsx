@@ -168,7 +168,7 @@ export default function Contact() {
         <Row className="justify-content-lg-center">
           <div className="col-12 col-lg-9">
             <div className="bg-white border rounded shadow-sm overflow-hidden">
-              <Form>
+              <Form onSubmit={handleFormSubmit}>
                 <Row className="gy-4 gy-xl-5 p-4 p-xl-5">
                   <div className="col-12">
                     <label htmlFor="fullname" className="form-label">
@@ -180,7 +180,7 @@ export default function Contact() {
                       className="form-control"
                       id="fullname"
                       name="fullname"
-                      onChange={handleChange}
+                      onChange={handleInputChange}
                       required
                     />
                   </div>
@@ -195,7 +195,7 @@ export default function Contact() {
                         className="form-control"
                         id="email"
                         name="email"
-                        onChange={handleChange}
+                        onChange={handleInputChange}
                         required
                       />
                     </div>
@@ -210,7 +210,7 @@ export default function Contact() {
                       id="message"
                       name="message"
                       rows="3"
-                      onChange={handleChange}
+                      onChange={handleInputChange}
                       required
                     ></textarea>
                   </div>
