@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Girassol&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Stencil+One&display=swap");
+
+
 .nav-height {
 height: 15%;
 }
@@ -30,6 +34,43 @@ height: 15%;
     background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8');
   }
 
-@media screen and (max-width: 780px) {
+  .push{
+    position: relative;
+    left: 20px;
+  }
+
+  .fam{
+    font-family: 'Monserrat', sans-serif;
+  }
+
+  .head{
+    font-family: 'Girassol', sans-serif;
+  }
+
+  @media (max-width: 811px) {
+    .contacto{
+      font-size: 12px;
+    }
+
+    .milk{
+      font-size: 25px;
+      position: relative;
+      top: 30px;
+    }
+  }
+
+@media (max-width: 755px) {
+  .linkies{
+    position: relative;
+    left: 43px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+
+  .boot{
+    position: relative;
+    right: 20px;
+  }
     
 }

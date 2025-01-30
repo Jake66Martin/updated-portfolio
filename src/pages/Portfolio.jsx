@@ -26,18 +26,19 @@ export default function Portfolio() {
             <div className="w-100 h-50 d-flex">
               <div className="application-div d-flex justify-content-center align-items-center position-relative">
                 <img
-                  src="/web-quiz.png"
-                  alt="web dev quiz image"
+                  src="/port.png"
+                  alt="barn sale image"
                   className="img-size rounded"
                 />
                 <a
-                  href="https://jake66martin.github.io/web-dev-quiz/"
+                  href="https://barn-sale.onrender.com"
                   className="position-absolute top-25 left-50 text-danger fs-3"
+                  style={{textDecoration: 'none', fontWeight: '700'}}
                 >
-                  Web Dev Quiz
+                  Barn Sale
                 </a>
                 <a
-                  href="https://github.com/Jake66Martin/web-dev-quiz"
+                  href="https://https://github.com/Jake66Martin/barn-sale"
                   className="position-absolute top-50"
                 >
                   <svg
@@ -60,6 +61,7 @@ export default function Portfolio() {
                 <a
                   href="https://jake66martin.github.io/daily-planner-calendar/"
                   className="position-absolute top-25 left-50 text-danger fs-3"
+                  style={{textDecoration: 'none', fontWeight: '700'}}
                 >
                   Day Planner
                 </a>
@@ -80,18 +82,19 @@ export default function Portfolio() {
               </div>
               <div className="application-div d-flex justify-content-center align-items-center position-relative">
                 <img
-                  src="/first-portfolio.png"
-                  alt="original portfolio image"
+                  src="/mart.png"
+                  alt="forest finishings image"
                   className="img-size rounded"
                 />
                 <a
-                  href="https://jake66martin.github.io/portfolio/"
-                  className="position-absolute top-25 left-50 text-danger fs-3"
+                  href="https://marty-uxeq.onrender.com/"
+                  className="position-absolute top-25 left-50 text-danger fs-5"
+                  style={{textDecoration: 'none', fontWeight: '700'}}
                 >
-                  Old Portfolio
+                  Forrest Finishings
                 </a>
                 <a
-                  href="https://github.com/Jake66Martin/portfolio"
+                  href="https://github.com/Jake66Martin/marty"
                   className="position-absolute top-50"
                 >
                   <svg
@@ -116,6 +119,7 @@ export default function Portfolio() {
                 <a
                   href="https://jake66martin.github.io/password-generator/"
                   className="position-absolute top-25 left-50 text-danger fs-3"
+                  style={{textDecoration: 'none', fontWeight: '700'}}
                 >
                   Pw Generator
                 </a>
@@ -143,6 +147,7 @@ export default function Portfolio() {
                 <a
                   href="https://pacific-journey-43365-1df1617a303b.herokuapp.com/"
                   className="position-absolute top-25 left-50 text-danger fs-3"
+                  style={{textDecoration: 'none', fontWeight: '700'}}
                 >
                   Tech Blog
                 </a>
@@ -170,6 +175,7 @@ export default function Portfolio() {
                 <a
                   href="https://jake66martin.github.io/weather-network/"
                   className="position-absolute top-25 left-50 text-danger fs-3"
+                  style={{textDecoration: 'none', fontWeight: '700'}}
                 >
                   Weather App
                 </a>
@@ -194,21 +200,22 @@ export default function Portfolio() {
       ) : (
         <div className="d-flex flex-column overflow-container align-items-center text-white position-absolute w-100 height">
           <div className="application-div m-3 d-flex justify-content-center align-items-center position-relative">
-            <img
-              src="/web-quiz.png"
-              alt="web quiz image"
-              className="img-size rounded"
-            />
-            <a
-              href="https://jake66martin.github.io/web-dev-quiz/"
-              className="position-absolute top-25 left-50 text-danger fs-6"
-            >
-              Web Dev Quiz
-            </a>
-            <a
-              href="https://github.com/Jake66Martin/web-dev-quiz"
-              className="position-absolute top-50"
-            >
+          <img
+                  src="/port.png"
+                  alt="barn sale image"
+                  className="img-size rounded"
+                />
+                <a
+                  href="https://barn-sale.onrender.com"
+                  className="position-absolute top-25 left-50 text-danger fs-3"
+                  style={{textDecoration: 'none', fontWeight: '700'}}
+                >
+                  Barn Sale
+                </a>
+                <a
+                  href="https://https://github.com/Jake66Martin/barn-sale"
+                  className="position-absolute top-50"
+                >
               <svg
                 className="logo2"
                 xmlns="http://www.w3.org/2000/svg"
@@ -229,6 +236,7 @@ export default function Portfolio() {
             <a
               href="https://jake66martin.github.io/daily-planner-calendar/"
               className="position-absolute top-25 left-50 text-danger fs-5"
+              style={{textDecoration: 'none', fontWeight: '700'}}
             >
               Day Planner
             </a>
@@ -248,21 +256,22 @@ export default function Portfolio() {
             </a>
           </div>
           <div className="m-3 application-div d-flex justify-content-center align-items-center position-relative">
-            <img
-              src="/first-portfolio.png"
-              alt="original portfolio image"
-              className="img-size rounded"
-            />
-            <a
-              href="https://jake66martin.github.io/portfolio/"
-              className="position-absolute top-25 left-50 text-danger fs-5"
-            >
-              Old Portfolio
-            </a>
-            <a
-              href="https://github.com/Jake66Martin/portfolio"
-              className="position-absolute top-50"
-            >
+          <img
+                  src="/mart.png"
+                  alt="forest finishings image"
+                  className="img-size rounded"
+                />
+                <a
+                  href="https://marty-uxeq.onrender.com/"
+                  className="position-absolute bottom-50 text-danger fs-5"
+                  style={{textDecoration: 'none', fontWeight: '700', textAlign: 'center'}}
+                >
+                  Forrest Finishings
+                </a>
+                <a
+                  href="https://github.com/Jake66Martin/marty"
+                  className="position-absolute top-50"
+                >
               <svg
                 className="logo2"
                 xmlns="http://www.w3.org/2000/svg"
@@ -282,7 +291,8 @@ export default function Portfolio() {
             />
             <a
               href="https://jake66martin.github.io/password-generator/"
-              className="position-absolute top-25 left-50 text-danger fs-5"
+              className="position-absolute bottom-50 left-50 text-danger fs-5"
+              style={{textDecoration: 'none', fontWeight: '700', textAlign: 'center'}}
             >
               Pw Generator
             </a>
@@ -310,6 +320,7 @@ export default function Portfolio() {
             <a
               href="https://pacific-journey-43365-1df1617a303b.herokuapp.com/"
               className="position-absolute top-25 left-50 text-danger fs-5"
+              style={{textDecoration: 'none', fontWeight: '700'}}
             >
               Tech Blog
             </a>
@@ -336,7 +347,8 @@ export default function Portfolio() {
             />
             <a
               href="https://jake66martin.github.io/weather-network/"
-              className="position-absolute top-25 left-50 text-danger fs-5"
+              className="position-absolute bottom-50 left-50 text-danger fs-5"
+              style={{textDecoration: 'none', fontWeight: '700', textAlign: 'center'}}
             >
               Weather App
             </a>
