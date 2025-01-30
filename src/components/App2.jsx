@@ -1,4 +1,3 @@
-// This code has been used from https://codepen.io/yaclive/pen/EayLYO
 
 import { useEffect, useRef } from "react";
 
@@ -10,30 +9,23 @@ export default function App2() {
 
 useEffect(()=> {
  
-    // Initialising the canvas
 var canvas = canvasRef.current
 console.log(canvas)
 const ctx = canvas.getContext('2d');
 
-// Setting the width and height of the canvas
-// canvas.width = window.innerWidth;
-// canvas.height = window.innerHeight;
 
-// Setting up the letters
+
 var letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
 letters = letters.split('');
 
-// Setting up the columns
 var fontSize = 10,
 columns = canvas.width / fontSize;
 
-// Setting up the drops
 var drops = [];
 for (var i = 0; i < columns; i++) {
 drops[i] = 1;
 }
 
-// Setting up the draw function
 function draw() {
 ctx.fillStyle = 'rgba(0, 0, 0, .1)';
 ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -48,7 +40,6 @@ if (drops[i] * fontSize > canvas.height && Math.random() > .95) {
 }
 }
 
-// Loop the animation
 setInterval(draw, 33);
 
 },[]) 

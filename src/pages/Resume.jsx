@@ -10,25 +10,25 @@ export default function Resume() {
       >
         Download my resume here
       </a>
-      <h3 className='text-center'>Front-end experience</h3>
+      <h3 className='text-center head'>Front-end experience</h3>
       <div>
       <ul>
-        <li>HTML</li>
-        <li>CSS (flexbox and grid)</li>
-        <li>Javascript/jQuery</li>
-        <li>Bootstrap/Tailwind</li>
-        <li>Responsive web design</li>
-        <li>React</li>
-        <li>Models/Views/Controllers (MVC)</li>
+        <li className="fam">HTML</li>
+        <li className="fam">CSS (flexbox and grid)</li>
+        <li className="fam">Javascript/jQuery</li>
+        <li className="fam">Bootstrap/Tailwind</li>
+        <li className="fam">Responsive web design</li>
+        <li className="fam">React</li>
+        <li className="fam">Models/Views/Controllers (MVC)</li>
       </ul>
-      <h3 className='text-center'>Back-end experience</h3>
+      <h3 className='text-center head'>Back-end experience</h3>
       <ul>
-        <li>NODEjs</li>
-        <li>Express</li>
-        <li>MYsql/Sequelize</li>
-        <li>MongoDB/Mongoose</li>
-        <li>APIs (both rest and graphQl)</li>
-        <li>Progressive Web Application (PWA)</li>
+        <li className="fam">NODEjs</li>
+        <li className="fam">Express</li>
+        <li className="fam">MYsql/Sequelize</li>
+        <li className="fam">MongoDB/Mongoose</li>
+        <li className="fam">APIs (both rest and graphQl)</li>
+        <li className="fam">Progressive Web Application (PWA)</li>
       </ul>
       </div>
     </div>
